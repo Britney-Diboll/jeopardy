@@ -4,10 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jeopardy</title>
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="stylesheet" href="./screen.css">
   </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
+  <body ng-app="jepoardyBoard" ng-controller="mainController">
+
+    <section class="header">
+    <h1> Jeopardy </h1>
+    <img src="./image/snl.png" alt="">
+  </section>
+
+    <div class="alignColumns">
+
+      <section class="categoryButtons">
+        <h3>Category 1</h3>
+        <a href="#">$200</a>
+        <a href="#">$400</a>
+        <a href="#">$600</a>
+        <a href="#">$800</a>
+      </section>
+
+      <section class="categoryButtons">
+          <h3>Category 2</h3>
+          <a href="#">$200</a>
+          <a href="#">$400</a>
+          <a href="#">$600</a>
+          <a href="#">$800</a>
+        </section>
+
+        <section class="categoryButtons">
+            <h3>Category 3</h3>
+            <a href="#">$200</a>
+            <a href="#">$400</a>
+            <a href="#">$600</a>
+            <a href="#">$800</a>
+          </section>
+
+          <section class="categoryButtons">
+              <h3>Category 4</h3>
+              <a href="#">$200</a>
+              <a href="#">$400</a>
+              <a href="#">$600</a>
+              <a href="#">$800</a>
+            </section>
+
+            <section class="categoryButtons">
+                <h3>Category 5</h3>
+                <a href="#">$200</a>
+                <a href="#">$400</a>
+                <a href="#">$600</a>
+                <a href="#">$800</a>
+              </section>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="./main.js" charset="utf-8"></script>
   </body>
 </html>
